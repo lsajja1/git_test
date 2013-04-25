@@ -1,1 +1,2 @@
-== Test applicatino
+== Test application
+	This is a sample application to practice git commands.
