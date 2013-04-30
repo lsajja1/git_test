@@ -1,4 +1,14 @@
 GitTest::Application.routes.draw do
+  #resources :users
+  root :to => "user#index"
+  match "user" => "user#index" 
+  get "user/index"
+  get "user/new"
+
+  get "user/create"
+
+  get "user/edit"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
